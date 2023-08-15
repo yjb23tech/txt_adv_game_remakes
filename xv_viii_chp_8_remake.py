@@ -18,6 +18,8 @@ class CrossBow:
         return (f"This is your {self.str_name} which you have nicknamed the {self.str_nickname}; it is {self.str_description} with an attack damage of {self.int_damage}")
 
 arr_action_options = ['N to travel North', 'E to travel East', 'S to travel South', 'W to travel West', 'I to access your Inventory', 'Q to save and Quit the game']
+
+#Used an explicit param declaration here for the single argument param to be passed in to override positional param passing; make it EXPLICIT
 arr_inventory_items = ['Crusty Bread', BroadSword(), CrossBow(str_nickname = "Flying God of Death"), 'Gauntlets', 'Healing Potion'] 
 
 def get_user_input():
