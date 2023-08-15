@@ -1,5 +1,15 @@
+class BroadSword:
+    def __init__(self):
+        self.str_name = "Broad Sword"
+        self.str_description = "perfect for close to close combat with a large area of effect when sieged by multiple foes"
+        self.int_damage = 100
+
+    def __str__(self):
+        return (f"This is your {self.str_name} and it is {self.str_description} with an attack strength of {self.int_damage}")
+
+
 arr_action_options = ['N to travel North', 'E to travel East', 'S to travel South', 'W to travel West', 'I to access your Inventory', 'Q to save and Quit the game']
-arr_inventory_items = ['Crusty Bread', 'Broad Sword', 'Crossbow', 'Gauntlets', 'Healing Potion'] 
+arr_inventory_items = ['Crusty Bread', BroadSword(), 'Crossbow', 'Gauntlets', 'Healing Potion'] 
 
 def get_user_input():
 
