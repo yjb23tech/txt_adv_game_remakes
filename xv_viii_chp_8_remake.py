@@ -11,6 +11,12 @@ def play():
 
     while (bool_game_is_on):
 
+        print("You can choose from the following options:\n")
+        option_counter = 1
+        for option in arr_action_options:
+            print(f"{option_counter}. Press {option}")
+            option_counter += 1
+
         player_ui = get_user_input()
 
         if player_ui in ['North', 'NORTH', 'north', 'N', 'n', '^']:
