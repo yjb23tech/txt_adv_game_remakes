@@ -1,4 +1,4 @@
-arr_action_options = ['N to travel North', 'E to travel East', 'S to travel South', 'W to travel West']
+arr_action_options = ['N to travel North', 'E to travel East', 'S to travel South', 'W to travel West', 'I to access your Inventory', 'Q to save and Quit the game']
 arr_inventory_items = ['Crusty Bread', 'Broad Sword', 'Crossbow', 'Gauntlets', 'Healing Potion'] 
 
 def get_user_input():
@@ -8,6 +8,8 @@ def get_user_input():
 def play():
 
     bool_game_is_on = True 
+
+    print("\nYahargh matey! Welcome to the Grand Line :D let's set sail!\n")
 
     while (bool_game_is_on):
 
