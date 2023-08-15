@@ -34,7 +34,7 @@ def play():
             for x, item in enumerate(arr_inventory_items, 1):
                 print(f"{x}. {item}")
 
-            print("\nChoose an item")
+            print(" ")
         elif player_ui in ['Quit', 'QUIT', 'quit', 'Q', 'q']:
             player_ui = input("You have chosen to quit; are you sure this is your desired option? Type Q-U-I-T to save and quit the game, Captain\n")
             if player_ui.upper() == 'QUIT':
@@ -44,7 +44,7 @@ def play():
                 print("Well shiver me timbers! I was worried you might be a lily livered fella for a second! Back to the ship we go XD\n")
                 
         else:
-            print("Try again Captain!")
+            print("Try again Captain!\n")
 
     print("Thank you for playing :D")
 
