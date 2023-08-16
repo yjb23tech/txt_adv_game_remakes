@@ -31,6 +31,8 @@ def play():
     bool_game_is_on = True 
 
     print("\nYahargh matey! Welcome to the Grand Line :D let's set sail!\n")
+    print("Don't fuck up the count")
+
 
     while (bool_game_is_on):
 
