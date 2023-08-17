@@ -70,7 +70,7 @@ def play():
             print("Try again Captain!\n")
 
     print("Thank you for playing :D")
-
+    print("Keep Going")
 play()
                  
 
