@@ -71,6 +71,7 @@ def play():
 
     print("Thank you for playing :D")
     print("Keep Going")
+    print("WOADIE")
 play()
                  
 
