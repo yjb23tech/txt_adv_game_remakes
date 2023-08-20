@@ -73,6 +73,7 @@ def play():
     print("Keep Going")
     print("WOADIE")
     print("Trying")
+    print("Struggling lol")
 play()
                  
 
