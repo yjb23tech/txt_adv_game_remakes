@@ -74,6 +74,7 @@ def play():
     print("WOADIE")
     print("Trying")
     print("Struggling lol")
+    print("Deep dive; don't fuck up lol")
 play()
                  
 
