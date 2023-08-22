@@ -75,6 +75,7 @@ def play():
     print("Trying")
     print("Struggling lol")
     print("Deep dive; don't fuck up lol")
+    print("I never lose on the 23rd")
 play()
                  
 
