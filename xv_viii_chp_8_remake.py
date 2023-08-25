@@ -78,6 +78,7 @@ def play():
     print("I never lose on the 23rd")
     print("In God We Trust")
     print("Trust in God")
+    print("ScarFace")
 play()
                  
 
